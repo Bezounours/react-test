@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from "./components/card/Card";
 import Cardboard from "./components/cardboard/Cardboard";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Cardboard level={this.props.level}></Cardboard>
+      <Cardboard level="4"></Cardboard>
     </div>
   );
 }
